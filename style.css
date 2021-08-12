@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+ /* #8d264d Burgundy color*/
+
+
+body {
+  background-color: lightsalmon;
+}
+
+body > h1 {
+  color: #008E91;
+}
+
+.domino-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.domino-list > li {
+  list-style-type: none;
+  font-size: 5rem;
+  transition: transform 0.5s;
+}
+
+.domino-list > li:hover {
+  /* color: #8d264d; */
+  transform: scale(1.5) rotate(0.5turn);
+}
